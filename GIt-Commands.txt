@@ -1,0 +1,34 @@
+Step1:-
+Configure Git
+command:-
+git config --global user.name "AjishKalia99"
+git config --global email "ajishkalia123@gmail.com"
+
+Step2:-
+Initialize Git
+command:-
+git init
+
+Step 3:-
+Add the repository to Stage Area
+Command:-
+git add -A
+
+Step 4:-
+Check the status of the repository using status
+Command:-
+git status
+
+Step 5:-
+Commit the file 
+Command:-
+git commit -m "your message"
+
+Step 6:-
+Add the url to master
+Command:-
+git remote add origin "Repository address here"
+
+Step 7:-
+Push the file to the repository
+git push origin master 
