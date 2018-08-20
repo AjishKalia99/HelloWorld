@@ -39,8 +39,18 @@ for i in range(0,len(L5)):
 print(even)
 print(odd)
 
-#Question 7 and 8
-#Question 7 and 8 could not be attempted as the topic TUPLES has not been covered in class
+#Question 7
+tup1=(1,2,3,4)
+T1=list(tup1)
+T1.reverse()
+T2=tuple(T1)
+print(T2)
+
+#Question 8
+tup2=(1,2,3,4,6,58,98,74,0)
+print(min(tup2))
+print(max(tup2))
+
 
 #Question 9
 a="Hi my name is ajish kalia"
